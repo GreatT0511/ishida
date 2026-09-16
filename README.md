@@ -32,3 +32,9 @@ node --check docs/guide.js
 ## 画像
 
 `docs/assets/verbalization-grounding.png` は提供画像をそのまま収録しています。画像内の著作権表示（© 2026 School Agent Co., Ltd.）を保持しています。
+
+## GAS版（単一HTML）
+
+[`gas/Index.html`](gas/Index.html) は、画像・CSS・JavaScript・印刷見本を埋め込んだ単一ファイル版です。Apps ScriptにHTMLファイル `Index` を作り、全文を貼り付けて利用します。ウェブアプリの入口には [`gas/Code.gs`](gas/Code.gs) を使用します。
+
+配置手順と確認範囲は [`gas/README.md`](gas/README.md) を参照してください。GitHub Pagesの公開元は引き続き `docs/` です。GAS版は独立したファイルなので、今後教材を変更する際は両方の版に反映してください。
