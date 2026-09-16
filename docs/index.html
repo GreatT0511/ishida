@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gemini 実践ガイド | 石田小学校 校内研修</title>
+  <meta name="description" content="小学校の先生のためのGemini活用ガイド。習熟度別プリント、思考を深める授業、校務、印刷、縦書き・ルビの具体的な手順とプロンプト。">
+  <meta name="theme-color" content="#173d77">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23173d77'/%3E%3Cpath d='M16 5L19 13L27 16L19 19L16 27L13 19L5 16L13 13Z' fill='%23b5d7ff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css"><script src="content.js" defer></script><script src="grounding.js" defer></script><script src="guide.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<aside class="sidebar">
+  <a class="brand" href="#top"><span class="brand-symbol" aria-hidden="true">✦</span><span>Gemini<br><small>教員のための実践ガイド</small></span></a>
+  <div class="school">甲府市立石田小学校<br>校内研修 · 2026.09.16</div>
+  <nav aria-label="ガイドの目次"><p class="nav-label">GUIDE CONTENTS</p>
+    <a href="#start"><span>00</span> はじめの5分</a>
+    <a href="#grounding"><span>目標</span> 言語化と接地を促す</a>
+    <a href="#personal"><span>01</span> 個に応じた教材づくり</a>
+    <a href="#thinking"><span>02</span> 考える力を育てる</a>
+    <a href="#documents"><span>03</span> 文書作成とGoogle移行</a>
+    <a href="#printing"><span>04</span> 提出物の整理と印刷</a>
+    <a href="#japanese"><span>05</span> 縦書きとルビ</a>
+    <a href="#more"><span>06</span> もう一歩、使いこなす</a>
+    <div class="nav-divider"></div>
+    <a href="#workshop">60分の研修プラン</a>
+    <a href="#check">使う前の確認・出典</a>
+  </nav>
+  <a class="external-link" href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Geminiを開く <span aria-hidden="true">↗</span></a>
+  <p class="sidebar-note">学校で認められたアカウントで<br>利用してください。</p>
+</aside>
+<div class="page" id="top">
+  <header class="topbar"><span>TEACHER’S FIELD GUIDE</span><span>授業と校務に役立つ、30の活用アイデア</span></header>
+  <main id="main">
+    <section class="intro"><p class="eyebrow">校内研修から、明日の実践へ</p><h1>Gemini 実践ガイド<span class="title-star" aria-hidden="true">✦</span></h1><p class="lead">つくる、問い直す、整える。先生方の「やってみたい」を、<br class="desktop-break">そのまま試せる手順とプロンプトにしました。</p><div class="intro-meta"><span>教員による利用を想定</span><span>Chromebook対応の手順</span><span>確認日 2026.09.16</span></div></section>
+    <section id="start" class="start-panel"><div class="start-copy"><p class="eyebrow">START HERE · 約5分</p><h2>まずは、3段階の<br>プリントをつくる。</h2><p>同じ学習目標のまま、支援の量と考える深さを変える。まずは架空の学級で試しましょう。</p><ol class="mini-steps"><li>プロンプトをコピー</li><li>Geminiに貼り付けて送信</li><li>問題と解答を先生が確かめる</li></ol><a href="#personal">詳しい進め方へ <span aria-hidden="true">↓</span></a></div><div class="prompt-feature"><div class="prompt-label"><span>GEMINIにお願いすること</span><button class="copy-btn" data-copy="first-prompt" aria-label="はじめのプロンプトをコピー">コピー</button></div><pre id="first-prompt">小学校3年生の算数「わり算」の練習プリントを作ってください。
+共通の目標は「等しく分ける場面を式で表し、答えの意味を説明する」です。
+
+①図と例題つき ②標準 ③理由を説明する発展
+の3種類を各3問、同じ目標で作ってください。
+答えは整数とし、問題・解答・解説を分けてください。
+最後に、教師が確認する観点を挙げてください。</pre><p class="prompt-foot">学年・単元・問題数を変えて使えます。<br><a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Geminiを開いて貼り付ける ↗</a></p></div></section>
+    <div class="guide-note"><span class="note-icon" aria-hidden="true">i</span><p><strong>Geminiの提案を、先生の判断で仕上げる。</strong> 問題の正しさや読みやすさは必ず確認。印刷やファイル操作は、それぞれのアプリで行います。</p></div>
+    <section id="grounding" class="section-block"></section>
+    <div id="guide-content"></div>
+    <section id="workshop" class="section-block"><div class="section-heading"><span class="chapter-no">60</span><div><p class="eyebrow">WORKSHOP</p><h2>60分で、一つ持ち帰る。</h2></div></div><p>研修では全例を試す必要はありません。自分の困りごとを一つ選び、授業や校務で使える形に仕上げます。</p><div id="workshop-content"></div></section>
+    <section id="check" class="section-block"><div class="section-heading"><span class="chapter-no">✓</span><div><p class="eyebrow">BEFORE YOU USE</p><h2>使う前の確認・出典</h2></div></div><div id="check-content"></div></section>
+    <footer><span class="footer-brand">✦ Gemini 実践ガイド</span><p>石田小学校の研修資料にある要望をもとに作成した実践案です。Googleの公式教材ではありません。</p><a href="#top">ページの先頭へ ↑</a></footer>
+  </main>
+</div><div id="toast" role="status" aria-live="polite"></div>
+</body></html>
